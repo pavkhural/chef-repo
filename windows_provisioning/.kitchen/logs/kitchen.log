@@ -1,0 +1,3 @@
+I, [2016-11-08T10:37:51.234250 #15284]  INFO -- Kitchen: -----> Starting Kitchen (v1.13.2)
+I, [2016-11-08T10:37:54.934837 #15284]  INFO -- Kitchen: -----> Converging <default-Windows2012R2>...
+I, [2016-11-08T10:38:53.754635 #15284]  INFO -- Kitchen: -----> Kitchen is finished. (1m2.57s)
