@@ -1,4 +1,4 @@
-# windows_provisioning
+# Windows Provisioning
 
-TODO: Enter the cookbook description here.
+This basical cookbook will bootstrap a windows server 2012r2 VM and install the chef dependencies on it
 
