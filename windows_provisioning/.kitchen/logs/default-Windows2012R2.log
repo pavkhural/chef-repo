@@ -1,24 +1,8 @@
-I, [2016-11-08T10:37:54.934837 #15284]  INFO -- default-Windows2012R2: -----> Converging <default-Windows2012R2>...
-I, [2016-11-08T10:37:54.937775 #15284]  INFO -- default-Windows2012R2: Preparing files for transfer
-I, [2016-11-08T10:37:54.938755 #15284]  INFO -- default-Windows2012R2: Preparing dna.json
-I, [2016-11-08T10:37:54.941216 #15284]  INFO -- default-Windows2012R2: Resolving cookbook dependencies with Berkshelf 5.1.0...
-I, [2016-11-08T10:38:08.599507 #15284]  INFO -- default-Windows2012R2: Removing non-cookbook files before transfer
-I, [2016-11-08T10:38:08.631438 #15284]  INFO -- default-Windows2012R2: Preparing validation.pem
-I, [2016-11-08T10:38:08.632941 #15284]  INFO -- default-Windows2012R2: Preparing client.rb
-I, [2016-11-08T10:38:09.914357 #15284]  INFO -- default-Windows2012R2: -----> Chef Omnibus installation detected (install only if missing)
-I, [2016-11-08T10:38:10.041477 #15284]  INFO -- default-Windows2012R2: Transferring files to <default-Windows2012R2>
-I, [2016-11-08T10:38:19.720161 #15284]  INFO -- default-Windows2012R2: Starting Chef Client, version 12.1.1
-I, [2016-11-08T10:38:53.606852 #15284]  INFO -- default-Windows2012R2: Creating a new client identity for default-Windows2012R2 using the validator key.
-I, [2016-11-08T10:38:53.612736 #15284]  INFO -- default-Windows2012R2: [2016-11-08T10:38:53+00:00] WARN: Child with name 'dna.json' found in multiple directories: C:/Users/ADMINI~1/AppData/Local/Temp/kitchen/dna.json and C:/Users/ADMINI~1/AppData/Local/Temp/kitchen/dna.json
-I, [2016-11-08T10:38:53.621759 #15284]  INFO -- default-Windows2012R2: [2016-11-08T10:38:53+00:00] WARN: Child with name 'dna.json' found in multiple directories: C:/Users/ADMINI~1/AppData/Local/Temp/kitchen/dna.json and C:/Users/ADMINI~1/AppData/Local/Temp/kitchen/dna.json
-I, [2016-11-08T10:38:53.630248 #15284]  INFO -- default-Windows2012R2: resolving cookbooks for run list: ["windows_provisioning::default"]
-I, [2016-11-08T10:38:53.639093 #15284]  INFO -- default-Windows2012R2: [2016-11-08T10:38:53+00:00] WARN: Child with name 'dna.json' found in multiple directories: C:/Users/ADMINI~1/AppData/Local/Temp/kitchen/dna.json and C:/Users/ADMINI~1/AppData/Local/Temp/kitchen/dna.json
-I, [2016-11-08T10:38:53.646919 #15284]  INFO -- default-Windows2012R2: Synchronizing Cookbooks:
-I, [2016-11-08T10:38:53.655739 #15284]  INFO -- default-Windows2012R2:   - windows_provisioning
-I, [2016-11-08T10:38:53.661625 #15284]  INFO -- default-Windows2012R2: Compiling Cookbooks...
-I, [2016-11-08T10:38:53.668491 #15284]  INFO -- default-Windows2012R2: Converging 0 resources
-I, [2016-11-08T10:38:53.674374 #15284]  INFO -- default-Windows2012R2: 
-I, [2016-11-08T10:38:53.679277 #15284]  INFO -- default-Windows2012R2: Running handlers:
-I, [2016-11-08T10:38:53.686144 #15284]  INFO -- default-Windows2012R2: Running handlers complete
-I, [2016-11-08T10:38:53.691044 #15284]  INFO -- default-Windows2012R2: Chef Client finished, 0/0 resources updated in 39.874857 seconds
-I, [2016-11-08T10:38:53.753656 #15284]  INFO -- default-Windows2012R2: Finished converging <default-Windows2012R2> (0m58.86s).
+I, [2016-11-29T12:40:49.012917 #1092]  INFO -- default-Windows2012R2: -----> Creating <default-Windows2012R2>...
+I, [2016-11-29T12:40:51.954650 #1092]  INFO -- default-Windows2012R2: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2016-11-29T12:40:52.486909 #1092]  INFO -- default-Windows2012R2: ==> default: Checking if box 'mwrock/Windows2012R2' is up to date...
+I, [2016-11-29T12:41:00.403656 #1092]  INFO -- default-Windows2012R2: ==> default: Machine not provisioned because `--no-provision` is specified.
+I, [2016-11-29T12:41:14.337311 #1092]  INFO -- default-Windows2012R2: [WinRM] Established
+I, [2016-11-29T12:41:14.342218 #1092]  INFO -- default-Windows2012R2: 
+I, [2016-11-29T12:41:14.370676 #1092]  INFO -- default-Windows2012R2: Vagrant instance <default-Windows2012R2> created.
+I, [2016-11-29T12:41:14.372639 #1092]  INFO -- default-Windows2012R2: Finished creating <default-Windows2012R2> (0m25.36s).
