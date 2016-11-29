@@ -1,5 +1,2 @@
-test/tmp
-test/version_tmp
-tmp
 .kitchen/
-.kitchen.local.yml
+.kitchen.local.yaml
