@@ -1,7 +1,0 @@
-DEPENDENCIES
-  windows_provisioning
-    path: .
-    metadata: true
-
-GRAPH
-  windows_provisioning (0.1.0)
